@@ -1,0 +1,55 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+  
+.item {
+    width: 30rem;
+    padding: 0rem;
+ 
+}
+
+.img {
+    border: none !important;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+    margin: 2rem 0;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.yes {
+	background-color: linear-gradient( rgb(128,94,243));
+}
+
+.noButton {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: right; 
+    white-space: nowrap;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.accept {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 30rem;
+    padding: 0rem;
+}

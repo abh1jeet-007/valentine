@@ -1,0 +1,43 @@
+export const rejectedText = [
+    "Will you my Valentine ...Please?", 
+    "Are you Sure?", 
+    "Are you really Sure?",
+    "Are you really really Sure?", 
+    "Think Again?", "Don't believe in second chances?", 
+    "Why are you being so cold?", 
+    "Maybe we can talk about it?", 
+    "I am not going to ask again!",
+    "Ok, now this is hurting my feelings!",
+    "You are now just being so mean!",
+    "Why are you doing this to me?",
+    "Please give me a chance!",
+    "I am begging you to stop!",
+    "Maan jao na, please",
+    "Please Please Please ....!",
+    "Tumhe Vada Pav ki Kasam?", 
+    "Dekh lo, dobara nahi puchunga?",
+    "Please.. I kindly request...!"
+  ];
+
+ export const imageList = [
+    'https://media.tenor.com/JxpT2Jwh3iMAAAAj/please.gif',
+    "https://media.tenor.com/qZEQj6zx_oEAAAAM/danny-gonzalez-are-you-sure.gif",
+    "https://media.tenor.com/co1o_3lhG80AAAAM/oh-no-gif.gif",
+    "https://media.tenor.com/GiAX26rd7tQAAAAj/really-%E3%81%B4%E3%82%88%E3%81%BE%E3%82%8B.gif",
+    "https://media.tenor.com/j49lVjKpJIQAAAAM/sunshine-again.gif",
+    "https://media.tenor.com/DuKovvFNwsEAAAAM/everybody-deserves-a-second-chance-buck-faust.gif",
+    "https://media.tenor.com/1UvrjBruvCAAAAAM/yes-sir.gif",
+    "https://media.tenor.com/Q6PIWMyUy-YAAAAM/we-should-probably-talk-about-that-ryan-bruce.gif",
+    "https://media.tenor.com/j7JF7-mfhIkAAAAM/i-wont-ask-you-again-general-kirigan.gif",
+    "https://qph.cf2.quoracdn.net/main-qimg-2244187e64337304f3365d67e28805a6-lq",
+    "https://media.tenor.com/GFn-5lKPa6kAAAAM/please-pretty-please.gif",
+    "https://media.tenor.com/MiwzaTQvw_YAAAAM/why-are-you-doing-this-jerry-selbee.gif",
+    "https://media.tenor.com/JL8RhgSrUCEAAAAM/last-chance-moana.gif",
+    "https://media.tenor.com/ZR4_ncb7wZkAAAAM/cat-uwu.gif",
+    "https://media.tenor.com/MCLtDVYmaq8AAAAM/cat-please.gif",
+    "https://media.tenor.com/lW4rrInZ9Z8AAAAM/cute-cat-kitty.gif",
+    "https://media.tenor.com/3celu6Aaqc4AAAAM/akshay-kumar-akshay-kumar-memes.gif",
+    "https://media.tenor.com/tsK3iFV9aQQAAAAM/pleasedog-please.gif",
+    "https://media1.tenor.com/m/29bdnggsHHQAAAAd/please-i-kindly-request.gif",
+  ];
+  
