@@ -1,5 +1,5 @@
 export const rejectedText = [
-    "Will you my Valentine ...Please?", 
+    "Will you my Valentine forever...Please?", 
     "Are you Sure?", 
     "Are you really Sure?",
     "Are you really really Sure?", 
@@ -14,7 +14,7 @@ export const rejectedText = [
     "I am begging you to stop!",
     "Maan jao na, please",
     "Please Please Please ....!",
-    "Tumhe Vada Pav ki Kasam?", 
+    "Tumhe Samosa ki Kasam?", 
     "Dekh lo, dobara nahi puchunga?",
     "Please.. I kindly request...!"
   ];
