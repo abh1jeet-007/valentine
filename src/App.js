@@ -1,10 +1,10 @@
-import AcceptProposal from "./components/valentine/AcceptProposal";
-import Valentine from "./components/valentine/Valentine";
+
+import Home from "./components/Home"
 
 function App() {
   return (
     <div className="App">
-      <Valentine />
+      <Home />
 
      
     </div>

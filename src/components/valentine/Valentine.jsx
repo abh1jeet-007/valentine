@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import {rejectedText, imageList, acceptedImageList, acceptedText} from './list'
+import { useNavigate } from "react-router-dom";
+import {rejectedText, imageList} from './list'
 import './valentine.css'
 
 const Valentine = () => {
@@ -9,10 +10,15 @@ const Valentine = () => {
 
   const [title, setTitle] = useState(0);
   let count  = 2;
+  const navigate = useNavigate();
 
 
   const handleNoClick = () => {
         return setTitle(title + 1);
+  }
+
+  const handleYesClick =() => {
+    navigate("/success");
   }
 
   let buttonSize = (title + 1)*5;
@@ -45,7 +51,7 @@ const Valentine = () => {
             <Card className='img'>
                 <Card.Img height="200px" width="25px" src={imageList[title]} /> 
             </Card>
-            <Button className ="yes" style ={{width: `${buttonSize}%`}} variant="success">{noButtonSize === 0 ? "Okay, Fine....." :'Yes'}</Button>
+            <Button className ="yes" style ={{width: `${buttonSize}%`}} onClick ={handleYesClick} variant="success">{noButtonSize === 0 ? "Okay, Fine....." :'Yes'}</Button>
             {noButtonSize !== 0 && <Button className='noButton' style ={{width: `${noButtonSize}%`}} disabled={rejectedText.length <= title+1} onClick ={handleNoClick} variant="danger">No, Definitely Not</Button>}
         </Card.Body>
         </Card>
